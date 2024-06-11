@@ -1,0 +1,9 @@
+tamanho = float(input("Informe o tamanho do arquivo em Mb: "))
+print(f"O tamanho do arquivo é de {tamanho}Mb")
+
+velocidade = float(input("Velocidade da internet em Mbps: "))
+print(f"O tamanho do arquivo é de {tamanho}Mbps")
+
+download = int(velocidade*tamanho/60)
+
+print(f"O tempo de download é de {download} minutos")
